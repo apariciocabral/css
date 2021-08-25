@@ -42,9 +42,10 @@ a {
 }
 
 .header-2 {
-    background-color: blue;
+    background-color: #2836ff;
     padding: 15px;
 }
+
 
 .container {
     max-width: 1200px;
@@ -88,7 +89,7 @@ h1 {
 }
 
 .footer {
-    background-color: blue;
+    background-color:  #2836ff;
     padding: 15px;
     color: lightcyan;
 }
