@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=C:\Users\Diego\Desktop\estudo\projeto\css\style.css>
-    <title>Fale Conosco</title>
+    <title>Carrinho de Compras</title>
 </head>
 <body>
     <header>
@@ -34,68 +34,52 @@
             </div>
         </nav>
     </header>
+
     <main>
         <section>
             <div class="container">
-                <a href="carangos-top-css.html">Página Inicial</a>  
-                <span>/ Fale Conosco</span>
+                <a href="carangos-top-css.html">Página Inicial</a> 
+                <a href="produtos-css.html">/ Produtos</a>
+                <a href="produto-selecionado-css.html">/ Produto Selecionado</a>
+                <span>/ Carrinho de Compras</span>
             </div>
         </section>
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
-                        <form method="POST" action="pagina-de-destiino.html">
-                            <h2 class="p-15 tacenter">Nos mande sua dúvida</h2>
-                            <div>
-                                <h2 class="p-15 tacenter">Nome:</h2>
-                                <div class="tacenter">
-                                    <input class="p-10 w-60" type="text" name="nome" required>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="p-15 tacenter">Email:</h2>
-                                <div class="tacenter">
-                                    <input class="p-10 w-60" type="email" name="email" required>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="p-15 tacenter">Telefone:</h2>
-                                <div class="tacenter">
-                                    <input class="p-10 w-60" type="tel" name="telefone" required>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="p-15 tacenter">Mensagem:</h2> 
-                                <div class= "tacenter">
-                                    <textarea 
-                                        name="mensagem" 
-                                        rows="5" 
-                                        cols="70" 
-                                        required
-                                    >
-                                    </textarea>
-                                </div>
-                            </div>
-                            <div class="p-15 tacenter">
-                                <button class="button" type="submit">Enviar</button>
-                            </div>
-                        </form>
+                    <div class="col-3 p-15 tacenter">
+                        <img src="bmw-x1.jpeg" width="100%">
                     </div>
-                    <div class="col-4">
-                        <div>
-                            <h2 class="p-15 tacenter">Endereço</h2>
-                            <p class="p-15 tacenter">Rua das só carretas, 2021, <br>Nova Friburgo-RJ <br>CEP: 28621-000</p>
-                            <h2 class="p-15 tacenter">Telefone</h2>
-                            <p class="p-15 tacenter">(22) 2528-2003 / (22) 99289-6666</p>
-                            <h2 class="p-15 tacenter">Redes Sociais</h2>
-                            <p class="p-15 tacenter">@carangostop</p>
+                    <div class="col-3">
+                        <h2 class="tacenter p-top-40">BMW X1</h2>
+                        <h3 class="tacenter p-15">xDrive25i Sport</h3>
+                        <h3 class="tacenter">2021/2022</h3>
+                    </div>
+                    <div class="col-3">
+                        <p class="tacenter p-top-40 p-15">Quantidade</p>
+                        <div class="tacenter">
+                            <input class="button-qtt" type="number" name="quantidade" min="1" value="1">
                         </div>
+                    </div>
+                    <div class="col-3 tacenter p-top-60">
+                        <button class="button" type="submit">Comprar</button>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="detalhes p-15">
+                        <a href="produtos-css.html" class="button">Continuar a Compra</a>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
+
+
     </main>
+
     <footer>
         <div class="footer">
             <div class="container">
@@ -134,6 +118,6 @@
             <p class="footer-p p-15">Produzido por Diego Cabral</p>
         </div>
     </footer>
-
+    
 </body>
 </html>
