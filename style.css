@@ -20,11 +20,17 @@ a {
 
 .p-10 { padding: 10px; }
 
+.p-top-40 { padding-top: 40px;}
+
+.p-top-60 { padding-top: 60px;}
+
 .tajust { text-align: justify; }
 
 .tacenter { text-align: center; }
 
 .taright { text-align: right; }
+
+.taleft { text-align: left; }
 
 .col-6 { width: 50%; }
 
@@ -86,6 +92,12 @@ h1 {
     text-align: center;
     padding: 10px;
     display: inline-block;
+}
+
+.button-qtt {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .footer {
